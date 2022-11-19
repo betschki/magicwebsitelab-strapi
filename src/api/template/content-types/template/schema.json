@@ -54,6 +54,10 @@
     },
     "Changelog": {
       "type": "richtext"
+    },
+    "LemonSqueezyIdProd": {
+      "type": "biginteger",
+      "required": true
     }
   }
 }
