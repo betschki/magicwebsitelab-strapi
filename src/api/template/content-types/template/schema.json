@@ -58,6 +58,10 @@
     "LemonSqueezyIdProd": {
       "type": "biginteger",
       "required": true
+    },
+    "Slug": {
+      "type": "string",
+      "required": true
     }
   }
 }
