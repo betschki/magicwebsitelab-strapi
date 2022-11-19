@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templates",
+  "info": {
+    "singularName": "template",
+    "pluralName": "templates",
+    "displayName": "Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "PreviewUrl": {
+      "type": "string",
+      "required": true
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Story": {
+      "type": "richtext",
+      "required": true
+    },
+    "Requirements": {
+      "type": "richtext",
+      "required": true
+    },
+    "LemonSqueezyId": {
+      "type": "biginteger",
+      "required": true
+    },
+    "SourceFileUrl": {
+      "type": "string",
+      "required": true
+    },
+    "TidyCalUrl": {
+      "type": "string",
+      "required": true
+    },
+    "Changelog": {
+      "type": "richtext"
+    }
+  }
+}
