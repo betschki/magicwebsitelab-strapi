@@ -64,7 +64,12 @@
       "required": true
     },
     "CarrdId": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
+    },
+    "NotionLink": {
+      "type": "string",
+      "required": true
     }
   }
 }
