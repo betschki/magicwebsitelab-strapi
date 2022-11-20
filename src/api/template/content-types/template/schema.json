@@ -62,6 +62,9 @@
     "Slug": {
       "type": "string",
       "required": true
+    },
+    "CarrdId": {
+      "type": "biginteger"
     }
   }
 }
