@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletters",
+  "info": {
+    "singularName": "newsletter",
+    "pluralName": "newsletters",
+    "displayName": "Newsletter"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "sentOn": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
